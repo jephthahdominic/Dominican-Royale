@@ -1,0 +1,35 @@
+.sticky-header{
+    width: 100%;
+    padding: 30px 40px 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    position: fixed;
+    margin-top:0;
+    z-index: 999;
+    background-color: #121921;
+}
+
+.sticky-header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.schoolName a{
+    font-size: 20px;
+    color: #fff;
+}
+
+.navigation > ul{
+    width: 100%;
+}
+
+.navigation > ul > li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+.navigation > ul > li:last-child{
+    margin-right: 0;
+}

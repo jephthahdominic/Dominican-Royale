@@ -1,0 +1,138 @@
+.home{
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.welcome{
+    height: 600px;
+    width: 100%; 
+    background-image:url('../../components/assets/banner2.jpg') ;
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
+
+.welcome img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(40%);
+}
+
+.welcome > div{
+    height: 100%;
+    text-align: center;
+    padding: 180px 100px;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: #fff;
+}
+
+.welcome > div > h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.welcome > div > span{
+    font-size: 18px;
+}
+.welcome > div >div{
+    width: 300px;
+    margin: auto;
+    margin-top: 35px;
+    /*display: grid;
+    grid-template-columns: 1fr;
+    gap: 0 20px; */
+    font-size: 18px;
+}
+
+.welcome > div a{
+   border: 1px solid #fff;
+   padding: 10px 10px;
+   border-radius: 5px;
+   justify-content: center;
+   text-align: center;
+}
+
+.welcome > div a.major{
+    background:#26006c;
+}
+
+
+
+/*styling te cards*/
+
+.white{
+    background-color: #fff;
+    padding: 100px ;
+}
+
+.cards > div{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /*display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;*/
+}
+
+.cards > div >  div{
+    width: 300px;
+    padding: 10px 2px 0px;
+    border: 1px solid #c4c4c4;
+    text-align:center;
+    border-radius: 10px;
+}
+
+.cards > div span{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.cards > div span:first-child{
+    font-weight: 600;
+}
+
+
+.introduction {
+    height: auto;
+    margin-top: 0px;
+    padding: 50px 40px 50px;
+    display: inline-flex;
+    background:linear-gradient(45deg, #100018a8 0%,#26006c8e 50%,#110038b2 100%);
+    color: #fff;
+}
+
+.introduction > .first-speech{
+    width: 40%;
+}
+
+.introduction > .first-speech > h3{
+    font-size: 35px;
+    margin-bottom: 55px;
+}
+
+.introduction > div > span{
+    font-size: 19px;
+}
+
+.introduction > div > a{
+    width: max-content;
+    display: block;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 10px 5px;
+    background-color: turquoise;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    border-radius: 5px;
+
+
+}
+
+.introduction > .intro-image{
+    width: 60%;
+    height: auto;
+    padding: 0 50px;
+
+}
